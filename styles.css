@@ -150,3 +150,53 @@ h2 {
     justify-content: flex-end;
     margin-right: 200px;
 }
+
+.fourth-section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-container {
+    background-color: #3882F6;
+    width: 75%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.left {
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h4 {
+    font-size: 24px;
+    color: white;
+}
+
+.fourth-p {
+    color: white;
+    font-size: 18px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section-four-button {
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 3px solid white; 
+    border-radius: 10px;
+    margin-right: 100px;
+}
