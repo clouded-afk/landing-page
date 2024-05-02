@@ -6,7 +6,8 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    padding-left: 128px;
+    padding-right: 128px;
 }
 
 .footer {
@@ -15,7 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    padding: 16px;
 }
 
 .logo {
