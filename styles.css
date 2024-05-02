@@ -9,6 +9,15 @@ body {
     padding: 8px;
 }
 
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 .logo {
     color: #F9FAF8;
     font-size: 24px;
