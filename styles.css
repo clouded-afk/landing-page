@@ -11,11 +11,13 @@ body {
 
 .first-section {
     background-color: #1F2937;
+    padding-bottom: 50px;
 }
 
 #header-logo{
     font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header-link {
@@ -33,15 +35,19 @@ ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
-
 }
 
 .navbar-left, .navbar-right {
     display: flex;
     width: 50%;
-    justify-content: center;
     align-items: center;
+    padding-left: 350px;
 }
+
+.navbar-right {
+    padding-right: 300px;
+}
+
 
 h1 {
     font-size: 48px;
@@ -53,6 +59,8 @@ h1 {
     display: flex;
     flex-direction: row;
     margin: 50px;
+    padding-top: 50px;
+    padding-left: 200px;
 }
 
 .content-right {
@@ -60,6 +68,7 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-right: 100px;
     width: 50%;
 }
 
@@ -68,7 +77,7 @@ h1 {
     flex-direction: column;
     width: 50%;
     justify-content: center;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .first-p {
@@ -77,7 +86,9 @@ h1 {
 }
 
 img {
-    margin-bottom: 50px;
+   height: 225px;
+   padding-right: 200px;
+
 }
 
 .first-section-button {
@@ -95,14 +106,18 @@ h2 {
     font-weight: bolder;
     color:  #1F2937;
     text-align: center;
+    margin-top: 25px;
 }
 
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     max-width: 100%;
-    margin: 100px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
     align-items: center;
 }
 
@@ -129,26 +144,27 @@ h2 {
     height: 500px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
-    font-weight: light;
+    font-weight: lighter;
     color: #1F2937;
-    text-align: center;
+    text-align: left;
 }
 
 .quote-person {
     font-size: 18px;
-    font-weight: bolder;
+    font-weight: bold;
+    padding-left: 550px;
 }
 
 #quote-person-div {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 200px;
+    justify-content: end;
 }
 
 .fourth-section {
@@ -196,8 +212,8 @@ h4 {
     color: white;
     width: 100px;
     height: 30px;
-    border: 3px solid white; 
-    border-radius: 10px;
+    border: 2px solid white; 
+    border-radius: 5px;
     margin-right: 100px;
 }
 
