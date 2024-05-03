@@ -114,7 +114,8 @@ h2 {
 
 .container-text {
     text-align: center;
-    font-size: 18px;
+    font-size: 14px;
+    padding-top: 5px;
 }
 
 .section-three .container {
@@ -129,6 +130,7 @@ h2 {
 .quote-author {
     align-self: flex-end;
     font-weight: bold;
+    padding-top: 10px;
 }
 
 .third-p {
